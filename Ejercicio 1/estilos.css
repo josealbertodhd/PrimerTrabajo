@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#general{
+    margin:auto;
+    padding: 1px;
+    margin-top: 20px;
+    width: 1300px;
+    height: 1022px;
+    background-color: black;
+}
+
+div#Titulo{
+    width: 1299px;
+    height: 30px;
+    background-color: white;
+}
+
+div#Variable{
+    margin-top: 1px;
+    width: 195px;
+    height: 90px;
+    background-color: white;
+    float: left;
+}
+
+div#Lab{
+    margin: 1px;
+    width: 25px;
+    height: 90px;
+    background-color: white;
+    float: left;
+    writing-mode: vertical-lr;
+}
+
+div#fechas{
+    width: 980px;
+    height: 91px;
+    background-color: black;
+    float: left;
+}
+
+div#Titul{
+    margin-top: 1px;
+    width: 979px;
+    height: 15px;
+    background-color: white;
+
+}
+
+div#Fch{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 48px; 
+    height: 74px;
+    background-color: white;
+    writing-mode: vertical-lr;
+    float: left;
+}
+
+div#Totales{
+    margin: 1px;
+    width: 96px;
+    height: 90px;
+    background-color: white;
+    float: left;
+}
+
+div#Ubicacion{
+    margin: 0px;
+    width: 222px;
+    height: 441px;
+    background-color: black;
+    float: left;
+}
+
+div#Ubi{
+    margin: 0px;
+    margin-right: 1px;
+    width: 95px;
+    height: 440px;
+    background-color: white;
+    float: left;
+}
+
+div#Ciudad{
+    margin: 0px;
+    margin-right: 1px;
+    height: 20px;
+    width: 99px;
+    background-color: white;
+    float: left;
+}
+
+div#Numeros{
+    margin: 0px;
+    height: 20px;
+    width: 25px;
+    background-color: white;
+    float: left;
+}
+
+div#Ciudad1{
+    margin: 0px;
+    margin-top: 1px;
+    margin-right: 1px;
+    height: 20px;
+    width: 99px;
+    background-color: white;
+    float: left;
+}
+
+div#Numeros1{
+    margin: 0px;
+    margin-top: 1px;
+    height: 20px;
+    width: 25px;
+    background-color: white;
+    float: left;
+}
+
+div#TablaG{
+    margin: 0px;
+    width: 980px;
+    height: 441px;
+    background-color: black;
+    float: left;
+}
+
+div#Numeros2{
+    margin: 0px;
+    margin-right: 1px;
+    width: 48px;
+    height: 20px;
+    background-color: white;
+    float: left;
+}
+
+div#Numeros3{
+    margin: 0px;
+    margin-right: 1px;
+    margin-top: 1px;
+    width: 48px;
+    height: 20px;
+    background-color: white;
+    float: left;
+}
+
+div#NumTotal{
+    width: 98px;
+    height: 441px;
+    background-color: black;
+    float: left;
+}
+
+div#Numeros4{
+    margin: 0px;
+    width: 97px;
+    height: 20px;
+    background-color: white;
+    float: left;
+}
+
+div#Numeros5{
+    margin-top: 1px;
+    width: 97px;
+    height: 20px;
+    background-color: white;
+    float: left;
+}
+
+div#CasosDia{
+    margin-top: 1px;
+    width: 221px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#CantCasos{
+    margin-top: 1px;
+    margin: 1px;
+    width: 48px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#CantCasos1{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 48px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#CantTotal{
+    margin-top: 1px;
+    width: 97px;
+    height: 31px;
+    background-color: white;
+    float: left;
+}
+
+div#DatosReg{
+    margin: 0px;
+    margin-top: 1px;
+    width: 221px;
+    height: 426px;
+    background-color: black;
+    float: left;
+}
+
+div#Datos{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 95px;
+    height: 60px;
+    background-color: white;
+    float: left;
+}
+
+div#DatosInt{
+    margin-top: 1px;
+    width: 125px;
+    height: 29px;
+    background-color: white;
+    float: left;
+}
+
+div#DatosInt2{
+    margin-top: 1px;
+    width: 125px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#Datos2{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 95px;
+    height: 90px;
+    background-color: white;
+    float: left;
+}
+
+div#DatosInt3{
+    margin-top: 1px;
+    width: 125px;
+    height: 60px;
+    background-color: white;
+    float: left;
+}
+
+div#Recuperar{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 221px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#Deceso{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 221px;
+    height: 90px;
+    background-color: white;
+    float: left;
+}
+
+div#TablaG2{
+    margin: 1px;
+    margin-top: 1px;
+    width: 980px;
+    height: 426px;
+    background-color: black;
+    float: left;
+}
+
+div#Numeros6{
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 48px;
+    height: 29px;
+    background-color: white;
+    float: left;
+}
+
+div#Numeros7{
+    margin: 0px;
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 48px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#TotalF{
+    width: 97px;
+    height: 428px;
+    background-color: black;
+    float: left;
+}
+
+div#TotalTodo{
+    margin: 0px;
+    margin-top: 2px;
+    width: 96px;
+    height: 29px;
+    background-color: white;
+    float: left;
+}
+
+div#TotalTodo2{
+    margin-top: 1px;
+    width: 96px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+
+div#TotalTodo3{
+    margin-top: 1px;
+    width: 96px;
+    height: 29px;
+    background-color: white;
+    float: left;
+}

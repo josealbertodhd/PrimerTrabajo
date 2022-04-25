@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioCOVID</title>
+</head>
+<body>
+    <div class="header">
+        <p>REPORTE DE CASOS DE COVID</p>
+    </div>
+    <section>
+        <p>LABORATORIO</p>
+        <select name="Departamento" id="Depart">
+            <option disabled selected>Escoja la ubicacion</option>
+            <option value="Antioquia">Antioquia</option>
+            <option value="Atlantico">Atlantico</option>
+            <option value="Bogota">Bogota D.C</option>
+            <option value="Bolivar">Bolivar</option>
+            <option value="Boyaca">Boyaca</option>
+            <option value="Caldas">Caldas</option>
+            <option value="Cauca">Cauca</option>
+            <option value="Cesar">Cesar</option>
+            <option value="Cundinamarca">Cundinamarca</option>
+            <option value="Huila">Huila</option>
+            <option value="Magdalena">Magdalena</option>
+            <option value="Meta">Meta</option>
+            <option value="Nariño">Nariño</option>
+            <option value="Norte">Nort de Sant</option>
+            <option value="Quindio">Quindio</option>
+            <option value="Risaralda">Risaralda</option>
+            <option value="Santander">Santander</option>
+            <option value="Tolima">Tolima</option>
+            <option value="Valle">Valle del Cauca</option>
+            <option value="Casanare">Casanare</option>
+            <option value="Isla">San Andres</option>
+        </select>
+        <p>FECHA</p>
+        <input type="date" name="Fecha" id="Fecha" placeholder="Ingrese una fecha">
+        <p>GENERO</p>
+        <label for="Men">Hombres:</label>
+        <input type="number" name="Hombre" id="Hombre" placeholder="Ingrese una cantidad">
+        <p></p>
+        <label for="Women">Mujeres:</label>
+        <input type="number" name="Mujer" id="Mujer" placeholder="Ingrese una cantidad">
+        <p>EDADES</p>
+        <label for="Menor">Menores de 49:</label>
+        <input type="number" name="Menores49" id="Menores" placeholder="Ingrese una cantidad">
+        <p></p>
+        <label for="Mayor">Mayores de 50:</label>
+        <input type="number" name="Mayores50" id="Mayores" placeholder="Ingrese una cantidad">
+        <p>CAUSA</p>
+        <label for="Import">Importados:</label>
+        <input type="number" name="Importado" id="Importado" placeholder="Ingrese una cantidad">
+        <p></p>
+        <label for="Relac">Relacionados:</label>
+        <input type="number" name="Relacionado" id="Relacionado" placeholder="Ingrese una cantidad">
+        <p></p>
+        <label for="Estud">Estudios:</label>
+        <input type="number" name="Estudio" id="Estudio" placeholder="Ingrese una cantidad">
+        <p>MANEJO</p>
+        <label for="House">En casa:</label>
+        <input type="number" name="Casa" id="Casa" placeholder="Ingrese una cantidad">
+        <p></p>
+        <label for="Hospit">Hospital:</label>
+        <input type="number" name="Hospital" id="Hospital" placeholder="Ingrese una cantidad">
+        <p></p>
+        <label for="Urgencia">UCI:</label>
+        <input type="number" name="UCI" id="UCI" placeholder="Ingrese una cantidad">
+        <p>RECUPERADOS</p>
+        <input type="number" name="Recuperado" id="Recuperado" placeholder="Ingrese una cantidad">
+        <p>DECESOS</p>
+        <input type="number" name="Decesos" id="Decesos" placeholder="Ingrese una cantidad">
+        <p></p>
+        <button><span>Enviar datos</span></button>
+        <p></p>
+        <button><a href="TablaMuestra.html">Muestra de datos adjuntos</a></button>
+    </section>
+</body>
+</html>
