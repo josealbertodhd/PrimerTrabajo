@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario vehículo</title>
+      <link rel="stylesheet" href="flex_css_Taller1.css">
+</head>
+
+<body>
+      <h1>Empiece ahora su solicitu de vehículo</h1>
+
+      <form action="formulario.php" method="post" class="vista">
+            <h2 class="titulo">FORMULARIO VEHICULO</h2>
+
+            <div class="llenado3">
+                  <input type="date" name="fecha" placeholder="Fecha" required class="uno">
+                  <input type="time" name="hora" placeholder="Hora" required class="uno">
+            </div>
+
+            <div class="llenado2">
+                  <input type="text" name="nombre" placeholder="Nombres" required minlength="2" maxlength="40"
+                        pattern="[A-Za-z ]+" class="dos">
+                  <input type="text" name="apellido" placeholder="Apellidos" required minlength="2" required
+                        maxlength="40" pattern="[A-Za-z ]+" class="dos">
+            </div>
+
+            <div class="llenado2">
+                  <input type="tel" name="teléfono" placeholder="Teléfono" required minlength="10" maxlength="10"
+                        class="uno" pattern="[0-9]+">
+                  <input type="email" name="e-mail" placeholder="Correo electrónico" required size 50 class="tres">
+            </div>
+
+            <p> ------------------------------------------------------------------------------------------------------------
+            </p>
+
+            <div class="llenado3">
+                  <label class="anotación"><b> Elija la marca del vehículo</b> </label>
+                  <div class="llenado1">
+                        <input type="radio" name="marca" value="Mazda">
+                        <label for="Mazda" class="anotación">Mazda</label>
+
+                        <input type="radio" name="marca" value="Renault">
+                        <label for="Renault" class="anotación">Renault</label>
+
+                        <input type="radio" name="marca" value="Nissan">
+                        <label for="Nissan" class="anotación">Nissan</label>
+                  </div>
+            </div>
+            <div class="llenado3">
+                  <label> <b> Escoja el año de fabricación:</b></label>
+                  <div class="llenado1">
+                        <select name="lista" class="uno">
+                              <option value="1900">1900</option>
+                              <option value="2000" selected>2000</option>
+                              <option value="2020">2020</option>
+                        </select>
+                  </div>
+            </div>
+
+            <div class="llenado3">
+                  <label class="anotación"><b>Seleccione uno o mas accesorios:</b></label>
+                  <div class="llenado1">
+                        <select name="accesorios" multiple size="4" class="uno">
+                              <optgroup label="Internos">
+                                    <option value="Tapicería en cuero">Tapicería en cuero</option>
+                                    <option value="Gps">Gps</option>
+                                    <option value="Radio full">Radio full</option>
+                              </optgroup>
+                              <optgroup label="Externos">
+                                    <option value="Llantas">Llantas</option>
+                                    <option value="Parillas de techo">Parrilas</option>
+                                    <option value="Gato">Gato</option>
+                              </optgroup>
+                        </select>
+                  </div>
+            </div>
+
+            <div class="llenado3">
+                  <label><b>Escoja el color de su preferencia</b></label>
+                  <div class="llenado1">
+                        <input type="color" name="color" required class="uno" class="llenado1">
+                  </div>
+            </div>
+
+          
+
+            <div class="llenado3">
+                  <label><b>Escriba en letras la cantidad de puestos que desea</b> </label>
+                  <div class="llenado1">
+                        <input type="text" multiple name="text" class="uno" id="puestos" list="text" required
+                              size="64">
+                        <datalist id="text">
+                              <option value="uno">Uno</option>
+                              <option value="dos">Dos</option>
+                              <option value="tres">Tres</option>
+                        </datalist>
+                  </div>
+            </div>
+
+            <div class="llenado3">
+                  <label class="anotación"><b>A continuación tiene un espacio para describir la posible personalización
+                              de su vehiculo tanto por fuera como por </b></label>
+                  <div class="llenado1">
+                        <textarea name="textarea" rows="3" cols="30" minlength="10"
+                              maxlength="114">Escriba aquí sus preferencias</textarea>
+                  </div>
+            </div>
+
+            <div class="llenado3">
+                  <input type="checkbox" />
+                  <label class="anotación"><b>Confirmo que los datos aqui consignados son reales</b></label>
+
+            </div>
+
+            <div class="llenado3">
+
+                  <input type="submit" value="Enviar" class="botonEnviar" required>
+            </div>
+
+      </form>
+
+</body>
+
+</html>

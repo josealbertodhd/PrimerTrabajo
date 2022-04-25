@@ -1,0 +1,137 @@
+
+*{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+   
+p{
+    align-content:center;
+    padding: 5px 30px 5px;
+    color: rgb(44, 42, 42);
+    font-family:  Tahoma;
+    font-size: medium;
+}
+
+body{
+    margin: 0;
+    font-family: Tahoma;
+    background: #4D375D;
+}
+h1{
+    padding: 20px;
+    color:whitesmoke;
+    text-align: left;
+    background: #999;
+}
+
+.vista{
+    height: auto;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background:#EB596E ;
+    border-radius: 7px;
+    justify-content: space-between;
+
+}
+
+.titulo{
+    background: whitesmoke;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    font-weight:100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid rgb(190, 74, 97);
+    
+}
+
+
+.llenado1{
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+    margin-top: 2px;
+    margin-bottom:20px ;
+    
+    
+}
+.llenado2{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    
+}
+
+.llenado3{
+    padding: 5px 30px 5px;
+    display: wrap;
+    justify-content: space-between;
+    color: rgb(44, 42, 42);
+    font-family:  Tahoma;
+    font-size: medium;
+    
+}
+
+input{
+
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.uno{
+width: 28%;
+align-items: flex-start;
+}
+
+.dos{
+width: 49%;
+
+}
+
+.tres{
+width: 68%;
+}
+
+.anotación{
+color: rgb(44, 42, 42);
+font-family:  Tahoma;
+font-size: medium;
+
+margin-left: 4px 4px;
+}
+
+fieldset{
+padding: 10px 15px;
+display:wrap ;
+border-color: #999;
+
+}
+
+textarea {
+padding: 10px;
+max-width: 50%;
+line-height: 1.5;
+border-radius: 5px;
+font-family:  Tahoma;
+border: 1px solid #ccc;
+box-shadow: 2px 2px 2px #999;
+}
+
+label{
+margin: 0;
+font-size: medium;
+font-style: tahoma;
+text-indent:  15px;
+}
+    
+
