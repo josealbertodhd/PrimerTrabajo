@@ -10,14 +10,15 @@
 body{
     margin: 0;
     font-family: Tahoma;
-    background: #6eb360;
+    background: #ebeac6;
 }
 
 h1{
     padding: 20px;
-    color:whitesmoke;
-    text-align: canter;
+    color:#4eb5f1;
+    text-align: center;
     background: rgb(178, 226, 166);
+   
 }
 
 
@@ -27,7 +28,7 @@ h1{
     width: 100%;
     max-width: 700px;
     margin: auto;
-    background:#4dd328 ;
+    background:white ;
     border-radius: 7px;
     justify-content: space-between;
 
@@ -35,11 +36,14 @@ h1{
 
 p{
 margin: 15px;
-font-size: medium;
+font-size: large;
 font-style: tahoma;
-text-indent:  15px;
-color:grey;
+font-weight: 900;
+color:rgb(70, 143, 47);
+text-align: justify;
+
 }
+
 .llenado3{
     padding: 5px 30px 5px;
     display: wrap;
@@ -51,12 +55,11 @@ color:grey;
 }
 
 input{
-
-    margin-bottom: 15px;
     padding: 8px;
     font-size: 12px;
     border-radius: 5px;
     border: 1px solid darkgray;
+
 }
 
 .otro{
@@ -64,9 +67,41 @@ input{
     padding: 8px;
     font-size: 12px;
     border-radius: 5px;
-    border: 1px solid darkgray;
+    border: 1px solid black;
+    display: flex;
+    
 }
 
+.otro1{
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.otro2{
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: wrap;
+    
+}
+
+.ancho25{
+width: 20%;
+}
+
+label{
+    margin: 15px;
+    font-size: small;
+    font-style: tahoma;
+    font-weight: 100;
+    color:black; 
+
+}
 
 
 .div#general{
@@ -400,4 +435,21 @@ div#TotalTodo3{
     height: 29px;
     background-color: white;
     float: left;
+}
+
+button{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+
+
 }

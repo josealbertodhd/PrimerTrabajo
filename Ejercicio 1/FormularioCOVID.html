@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div>
+    <div >
         <h1>REPORTE DE CASOS DE COVID</h1>
     </div>
     <form action="formulario.php" method="post" class="vista">
 
-    <div class="llenado3" class="otro">
+    <div class="otro1"> 
+        <p><b> Escoja la fecha ubicación del laboratorio donde se realizo la prueba.</b></p>
+        <div  class="otro">
+        <p>FECHA</p>
+        <input type="date" name="Fecha" id="Fecha" placeholder="Ingrese una fecha">
         <p>LABORATORIO</p>
-        <section class="otro" >
-        <select name="Departamento" id="Depart" class="otro">
-            <option disabled selected class="otro">Escoja la ubicacion</option>
+        <select name="Departamento" class="otro">
+            <option disabled selected >Escoja la ubicacion</option>
             <option value="Antioquia">Antioquia</option>
             <option value="Atlantico">Atlantico</option>
             <option value="Bogota">Bogota D.C</option>
@@ -40,51 +43,94 @@
             <option value="Casanare">Casanare</option>
             <option value="Isla">San Andres</option>
         </select>
-        </div>
-    </div>
+        </div> 
+    </div> 
 
-        <p>FECHA</p>
-        <input type="date" name="Fecha" id="Fecha" placeholder="Ingrese una fecha">
+    <div class="otro1">
         <p>GENERO</p>
+        <div class="otro">
         <label for="Men">Hombres:</label>
         <input type="number" name="Hombre" id="Hombre" placeholder="Ingrese una cantidad">
         <p></p>
         <label for="Women">Mujeres:</label>
         <input type="number" name="Mujer" id="Mujer" placeholder="Ingrese una cantidad">
-        <p>EDADES</p>
+        </div>
+    </div> 
+
+    <div class="otro1">
+       <p>EDADES</p>
+       <div class="otro">
         <label for="Menor">Menores de 49:</label>
         <input type="number" name="Menores49" id="Menores" placeholder="Ingrese una cantidad">
         <p></p>
         <label for="Mayor">Mayores de 50:</label>
         <input type="number" name="Mayores50" id="Mayores" placeholder="Ingrese una cantidad">
+        </div>
+    </div> 
+
+    <div class="otro1">    
         <p>CAUSA</p>
-        <label for="Import">Importados:</label>
+        <div class="otro" >
+        <div class="ancho25">
+        <label for="Importado">Importados:</label>
         <input type="number" name="Importado" id="Importado" placeholder="Ingrese una cantidad">
+        </div>
         <p></p>
+        <p></p>
+        <p></p>
+        <div class="ancho25">
         <label for="Relac">Relacionados:</label>
         <input type="number" name="Relacionado" id="Relacionado" placeholder="Ingrese una cantidad">
+        </div>
         <p></p>
+        <p></p>
+        <p></p>
+        <div class="ancho25">
         <label for="Estud">Estudios:</label>
         <input type="number" name="Estudio" id="Estudio" placeholder="Ingrese una cantidad">
+        </div>
+       </div>
+    </div> 
+        
+    <div class="otro1">
         <p>MANEJO</p>
+        <div class="otro" >
+        <div class="ancho25">
         <label for="House">En casa:</label>
         <input type="number" name="Casa" id="Casa" placeholder="Ingrese una cantidad">
+        </div>
         <p></p>
+        <p></p>
+        <p></p>
+        <div class="ancho25">
         <label for="Hospit">Hospital:</label>
         <input type="number" name="Hospital" id="Hospital" placeholder="Ingrese una cantidad">
+        </div>
         <p></p>
+        <p></p>
+        <p></p>
+        <div class="ancho25">
         <label for="Urgencia">UCI:</label>
         <input type="number" name="UCI" id="UCI" placeholder="Ingrese una cantidad">
+        </div>
+        </div>
+    </div> 
+
+
+    <div class="otro1"> 
+        <div  class="otro">
         <p>RECUPERADOS</p>
         <input type="number" name="Recuperado" id="Recuperado" placeholder="Ingrese una cantidad">
         <p>DECESOS</p>
         <input type="number" name="Decesos" id="Decesos" placeholder="Ingrese una cantidad">
         <p></p>
+        </div> 
+    </div>   
+        
         <button><span>Enviar datos</span></button>
         <p></p>
         <button><a href="TablaMuestra.html">Muestra de datos adjuntos</a></button>
-    </section>
-
 </form>
-</body>
+        </body>
+       
 </html>
